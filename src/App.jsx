@@ -9,16 +9,21 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      book:{
-        author:'',
-        title:'',
-        ISBN:'',
-        notes:'',
-        rating:'',
-        location:'',
-        possession:'',
-        genre:'',
-      }
+      book: {
+        author: '',
+        title: '',
+        ISBN: '',
+        notes: '',
+        rating: '',
+        location: '',
+        possession: '',
+        genre: '',
+        read:'',
+        year_read:'',
+        edition:'',
+        loaned:'',
+        loaned_to:'',
+      },
     };
   }
 
